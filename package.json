@@ -1,0 +1,11 @@
+{
+  "name": "mern-template",
+  "version": "0.0.1",
+  "description": "a MERN template for deploying apps on fly.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Arcé",
+  "license": "ISC"
+}
