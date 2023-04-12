@@ -1,11 +1,18 @@
 {
   "name": "mern-template",
   "version": "0.0.1",
-  "description": "a MERN template for deploying apps on fly.io",
+  "description": "A MERN template for deploying apps on fly.io",
   "main": "index.js",
   "scripts": {
+    "start": "NODE_ENV=production node index.js",
+    "dev": "NODE_ENV=development nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Daniel Arcé",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.10.5"
+  }
 }
